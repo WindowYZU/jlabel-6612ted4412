@@ -37,7 +37,7 @@ public class JLabelIconSample {
         //2. 取得 scaled instance
         //3. 設定到 label1
         ImageIcon icon=new ImageIcon(new URL("http://hk.on.cc/hk/bkn/cnt/entertainment/20170707/photo/bkn-20170707105030766-0707_00862_001_01p.jpg?20170707140026"));
-        Image img=icon.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+        Image img=icon.getImage().getScaledInstance(120, 100, Image.SCALE_SMOOTH);
         ImageIcon icon2=new ImageIcon(img);
         //Icon icon2=new ImageIcon(icon.getImage().getScaledInstance());
         label1.setIcon(icon2);
